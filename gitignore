@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+
+.env
+.venv/
+venv/
+env/
+
+*.egg-info/
+.DS_Store
+
+# Trained model checkpoints can get large - uncomment if you'd rather host them
+# externally (e.g. Google Drive, like Quin's repo) instead of committing to git
+# ml/models/*.pth
+
+node_modules/
+build/
+dist/
+.next/
